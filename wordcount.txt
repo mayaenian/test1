@@ -1,0 +1,29 @@
+word count python
+----------------
+tes a dictionary and adds the words in the dictionary
+ccc=dict()
+fhand=input("Enter a file name :")
+fhand=open(fhand)
+for line in fhand:
+    line=line.rstrip()
+        line=line.split()
+	    for word in line:
+	            if word in ccc:
+		                ccc[word]=ccc[word]+1
+				        else:
+					            ccc[word]=1
+						    x=list()
+						    x=ccc
+
+						    # Finds the largest word count and word
+						    large=None
+						    word=None
+						    for x,y in ccc.items():
+						        if large==None:
+							        large=y
+								        word=x
+									    if y>large:
+									            large=y
+										            word=x
+											    print ("The Larges word is:",word,)
+											    print("It occurs :",large,":number of times")
