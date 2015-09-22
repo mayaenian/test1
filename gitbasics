@@ -1,0 +1,13 @@
+gityhub commands
+
+1.touch <filename> # this will create a new file in your desktop or local command area
+2.ls # will show you the current directory content
+3.vim <filename> # is a text editor to add file ...you have to be in insert mode... to quit press escape and :x to save and quit the file
+4.git status # will show you the status of uncheck file.
+5.git add . # this will add untrack files.
+6.git commit -m "tst file text is addded as test" < message in quotes>
+7.git log # shows u the commits
+8. git push  # this will push files to the master branch
+
+
+
